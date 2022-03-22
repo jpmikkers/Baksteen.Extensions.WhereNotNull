@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Baksteen.Extensions.WhereNotNull", "Baksteen.Extensions.WhereNotNull\Baksteen.Extensions.WhereNotNull.csproj", "{07340EAA-69F3-4363-840B-554F639EF0E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{5D12C72C-B542-446F-9993-D6D89782D142}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{07340EAA-69F3-4363-840B-554F639EF0E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07340EAA-69F3-4363-840B-554F639EF0E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07340EAA-69F3-4363-840B-554F639EF0E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D12C72C-B542-446F-9993-D6D89782D142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D12C72C-B542-446F-9993-D6D89782D142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D12C72C-B542-446F-9993-D6D89782D142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D12C72C-B542-446F-9993-D6D89782D142}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
