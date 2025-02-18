@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>1.0.1</Version>
-    <TargetFrameworks>netstandard2.1;net6.0;net7.0</TargetFrameworks>
+    <Version>1.0.2</Version>
+    <TargetFrameworks>net8.0</TargetFrameworks>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -10,9 +10,9 @@
     <Authors>jpmikkers</Authors>
     <Description>This package contains two IEnumerable extension methods named WhereNotNull(). It skips all null elements from a sequence.
 This is useful for projects that have nullable reference types enabled because it converts IEnumerable&lt;T?&gt; into IEnumerable&lt;T&gt;</Description>
-    <Copyright>(c) JPMikkers 2022</Copyright>
+    <Copyright>(c) JPMikkers 2025</Copyright>
     <PackageTags>nullable,notnull,wherenotnull,linq,extension,enumerable</PackageTags>
-    <PackageReleaseNotes>Added support for dotnet 7.</PackageReleaseNotes>
+    <PackageReleaseNotes>Target dotnet 8.</PackageReleaseNotes>
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/jpmikkers/Baksteen.Extensions.WhereNotNull.git</RepositoryUrl>
